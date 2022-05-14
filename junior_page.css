@@ -1,0 +1,125 @@
+body{
+    background-image: url(junior_background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    margin: 0 -85px;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+nav a:active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+nav a.about:hover{
+    background:none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#teen_thinking {
+    margin-top: 2px;
+    margin-left: -60px;
+    display: inline;
+}
+
+
+#header_answer_content{
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    margin-left: 400px;
+    margin-top: -150px;
+    padding-top: 0px;
+}
+
+
+#flex-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-image: url(junior_background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#flex-container div {
+    background-color: white;
+    height: 35vh;
+    width: 95vw; 
+    margin: 10px;
+    border-radius: 25px;
+
+}
+.container{
+    overflow: hidden;
+    padding: 10px;
+}
+
+.container a:link , a:visited , a:active {
+    text-decoration: none;
+    border: 0px solid white;
+    padding: 5px 5px;
+    transition: all 0.3s ease-in-out;
+}
+.container a:hover {
+    display: inline-block;
+    color: black;
+    background-color: lightgray;
+    border-radius: 20px;
+    transform: scale(1.1);
+    /* height: 100px;
+    width: 100px; */
+}
+
+
+.container p img {
+    float: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    overflow: auto;
+    height: 200px;
+    width: 300px;
+}
+.container h1 {
+    display: inline;
+}

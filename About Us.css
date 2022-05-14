@@ -1,0 +1,103 @@
+.container {
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    
+}
+
+.head1 {
+    position: absolute;
+    top: 8%;
+    left: 35px;
+    color: #2c07ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+}
+
+.head2 {
+    position: absolute;
+    top: 38%;
+    left: 45px;
+    color: rgb(14, 13, 13);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+#border {
+    border-radius: 15px;
+}
+
+.pic1 {
+    position: relative;
+    top: -5%;
+    border-radius: 15px;
+    width: 33.3%;
+}
+
+.pic2 {
+    position: absolute;
+    top: 0%;
+    left: 100.5%;
+    width: 100%;
+    border-radius: 20px;
+    height: 730px;
+}
+
+.pic3 {
+    position: absolute;
+    top: 0%;
+    left: 201%;
+    width: 100%;
+    border-radius: 15px;
+    height: 730px;
+}
+
+.text1 {
+    position: relative;
+    top: -7%;
+    left: 20px;
+    width: 30%;
+    height: 25%;
+}
+
+.text2 {
+    position: absolute;
+    top: -10%;
+    width: 100%;
+    left: 111%;
+}
+
+.text3 {
+    position: absolute;
+    top: -10%;
+    width: 100%;
+    left: 222%;
+}
+
+.button1 {
+    border-radius: 2em;
+    background-color: #2164f3;
+    width: 20%;
+    min-width: 100px;
+    padding: 0.4em 0;
+    margin: 0.7em 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    margin-left: 20%;
+}
+
+.right {
+    float: right;
+    margin-right: 20%;
+}
+
+#border1 {
+    border-radius: 50%;
+}
+img.chirag{
+    border-radius: 50px;
+}

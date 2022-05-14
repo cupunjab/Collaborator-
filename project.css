@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    margin: 0 -85px;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+a.about:hover{
+    background:none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+}
+nav ul li a{
+    font-size: 16px;
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+}
+section{
+    background: url() ;
+}
+h1.Tag{
+    margin: 90px 130px 20px;
+    align-content: center;
+    text-decoration: wavy;
+    text-decoration: black;
+    text-transform: initial;
+    text-align: justify;
+    font-size: 80px;
+}
+h1 li.build{
+    color: #0082e6;
+}
+h1 li.love{
+    color: pink;
+}
+div.job{
+    text-align: right;
+    margin: -250px 250px 20px;
+    
+}
+h1.heading{
+    font-size: 35px;
+    
+}
+h3{
+    display: inline-block;
+    margin: 0 40px;
+    margin-right: 80px;
+}
+.job i{
+    position: var(input_field);
+}
+.input_field,input_field:hover{
+    text-align: center;
+    margin: 0 10px;
+    display: inline-block;
+    margin-right: -7px;
+    border-radius: 18px;
+    height: 23px;
+}
+.button{
+    border-radius: 18px;
+    width: 60px;
+    background-color: #1b9bff;
+    height: 23px;
+
+}
+.button:hover{
+    background-color: blue;
+}
+.trend{
+    margin: 180px 130px 20px;
+}
+div.img{
+    margin: 5px;
+}
+h2.heading2{
+    margin: 10px 130px 20px;
+    align-content: center;
+    text-decoration: wavy;
+    text-decoration: black;
+    text-transform: initial;
+    text-align: justify;
+    font-size: 18px;
+}
+div.lower{
+    
+    display: inline-flex;
+}
+div.social{
+    
+    margin:5px -80px 100px ;
+    size: 5px;
+}
+hr.line_below{
+    margin: -55px;
+}
+div img.img1{
+    margin: -480px 900px 20px;
+}
+div.temp{
+    display: inline-block;
+}
+div img.img2{
+    margin-left: 110px;
+}
+h3.aboutus{
+    margin: 90px -370px ;
+}
+div.bottom{
+    display: inline-block;
+}
+@media only screen and (max-width: 767px){
+    h1.tag{
+        display: block;
+        float: left;
+    }
+    li.build{
+        float: left;
+    }
+}

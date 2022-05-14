@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SignUp and Login</title>
+	<link rel="stylesheet" type="text/css" href="signup-page_CSS.css">
+	 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+
+<body>
+
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+
+			<form action="">
+				<h1>Create Account</h1>
+				<div class="social-container">
+					<a href="https://www.facebook.com/home.php" class="social"><img src="fb.png" alt="fb" height="40"
+							width="40"></a>
+					<a href="https://www.google.com/" class="social"><img src="gp.png" alt="gp" height="40"
+							width="40"></a>
+					<a href="https://www.linkedin.com/company/linkedin/" class="social"><img src="tw.png" alt="tw"
+							height="40" width="40"></a>
+				</div>
+				<span>or use your email for registration</span>
+				<input type="text" name="name" placeholder="Name">
+				<input type="email" name="email" placeholder="Email">
+				<input type="password" name="password" placeholder="Password">
+				<input type="text" name="job" placeholder="Job Domain"> <br>
+				<button type="submit">sign In</button>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form action="#">
+				<h1>log In</h1>
+				<div class="social-container">
+					<a href="https://www.facebook.com/home.php" class="social"><img src="fb.png" alt="fb" height="40"
+							width="40"></a>
+					<a href="https://www.google.com/" class="social"><img src="gp.png" alt="gp" height="40"
+							width="40"></a>
+					<a href="https://www.linkedin.com/company/linkedin/" class="social"><img src="tw.png" alt="tw"
+							height="40" width="40"></a>
+				</div>
+				<span>or use your account</span>
+				<input type="email" name="email" placeholder="Email">
+				<input type="password" name="password" placeholder="Password">
+				<input type="text" name="job" placeholder="Job Domain">
+				<a href="#">Forgot Your Password</a>
+
+				<button>log In</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Hey lets start again</h1>
+					<p>Log In to get the best recruitment experience</p>
+					<button class="ghost" id="signIn">Log In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Start Your journey</h1>
+					<p>Here you will get the best recruitment experience</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		const signUpButton = document.getElementById('signUp');
+		const signInButton = document.getElementById('signIn');
+		const container = document.getElementById('container');
+
+		signUpButton.addEventListener('click', () => {
+			container.classList.add("right-panel-active");
+		});
+		signInButton.addEventListener('click', () => {
+			container.classList.remove("right-panel-active");
+		});
+	</script>
+
+
+</body>
+
+</html>
